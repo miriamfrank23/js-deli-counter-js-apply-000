@@ -17,21 +17,25 @@ if (deliLine.length > 0) {
 
 let deliLine = ["Ada", "Grace"];
 
-function fixArray (deliLine) {
+function currentLine (deliLine) {
   let newArray = [];
   let num = 1;
   for (let i = 0; i < deliLine.length; i++) {
     newArray.push(`${num++}. ${deliLine[i]}`);
   }
   let newLine = newArray.join();
+  if (deliLine.length > 0) {
   return `The line is currently: ${newLine}`;
+  } else {
+  return 'The line is currently empty.';
+ }
 }
 
-function currentLine (deliLine, fixArray) {
+/* function currentLine (deliLine, fixArray) {
   let len = deliLine.length;
   if (len > 0) {
      return fixArray();
   } else {
     return 'The line is currently empty.';
   }
-}
+} */
