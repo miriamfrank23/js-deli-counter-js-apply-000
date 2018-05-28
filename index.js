@@ -15,6 +15,7 @@ if (deliLine.length > 0) {
  }
 }
 
+var line = [];
 
 function fixArray (line) {
   let newArray = [];
