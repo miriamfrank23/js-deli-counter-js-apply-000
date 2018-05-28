@@ -15,7 +15,10 @@ if (deliLine.length > 0) {
  }
 }
 
-
+function splitArray (word) {
+  let line = word.split('').join('');
+  return line;
+};
 
 function currentLine (katzDeliLine) {
   if (katzDeliLine.length > 0) {
