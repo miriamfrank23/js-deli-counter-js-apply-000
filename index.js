@@ -19,6 +19,6 @@ if (deliLine.length > 0) {
 
 function currentLine (katzDeliLine) {
   if (katzDeliLine.length > 0) {
-    
+
   }
 }
