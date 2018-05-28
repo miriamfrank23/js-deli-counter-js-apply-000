@@ -15,13 +15,21 @@ if (deliLine.length > 0) {
  }
 }
 
-function splitArray (word) {
-  let line = word.split('').join('');
-  return line;
+function fixArray (katzDeliLine) {
+  let newArray = [];
+  let num = 1;
+  for (let i = 0; i < katzDeliLine.length; i++) {
+    newArray.push(num++);
+    newArray.push(`. ${katzDeliLine[i]},`);
+  }
+  let line = newArray.split.join('');
+  return `The line is currently: ${line}`
 };
 
 function currentLine (katzDeliLine) {
   if (katzDeliLine.length > 0) {
-
+     return fixArray;
+  } else {
+    return 'The line is currently empty.';
   }
 }
