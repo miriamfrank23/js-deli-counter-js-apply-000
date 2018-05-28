@@ -12,4 +12,3 @@ if (katzDeliLine.length > 0) {
  }
 }
 
-function currentLine (name) {
