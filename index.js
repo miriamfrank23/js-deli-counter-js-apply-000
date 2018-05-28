@@ -29,7 +29,7 @@ function fixArray (line) {
 
 function currentLine (fixArray) {
   if (line.length > 0) {
-     return fixArray;
+     return fixArray();
   } else {
     return 'The line is currently empty.';
   }
