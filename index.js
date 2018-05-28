@@ -15,6 +15,7 @@ if (deliLine.length > 0) {
  }
 }
 
+
 function fixArray (katzDeliLine) {
   let newArray = [];
   let num = 1;
