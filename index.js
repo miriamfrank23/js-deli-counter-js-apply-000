@@ -28,7 +28,8 @@ function fixArray (line) {
 };
 
 function currentLine (line) {
-  if (line.length() > 0) {
+  let len = line.length;
+  if (len > 0) {
      return fixArray();
   } else {
     return 'The line is currently empty.';
