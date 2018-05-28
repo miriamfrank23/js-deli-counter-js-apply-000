@@ -31,11 +31,4 @@ function currentLine (deliLine) {
  }
 }
 
-/* function currentLine (deliLine, fixArray) {
-  let len = deliLine.length;
-  if (len > 0) {
-     return fixArray();
-  } else {
-    return 'The line is currently empty.';
-  }
-} */
+
