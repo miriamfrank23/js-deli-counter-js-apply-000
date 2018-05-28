@@ -24,7 +24,7 @@ function fixArray (line) {
     newArray.push(`${num++}. ${katzDeliLine[i]}`);
   }
   let newLine = newArray.join();
-  return `The line is currently: ${newLine}`
+  return `The line is currently: ${newLine}`;
 };
 
 function currentLine (fixArray) {
