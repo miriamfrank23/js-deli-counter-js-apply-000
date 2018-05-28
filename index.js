@@ -20,13 +20,13 @@ function fixArray (katzDeliLine) {
   let num = 1;
   for (let i = 0; i < katzDeliLine.length; i++) {
     newArray.push(num++);
-    newArray.push(`. ${katzDeliLine[i]},`);
+    newArray.push(`. ${katzDeliLine[i]}`);
   }
-  let line = newArray.split.join('');
+  let line = newArray.join();
   return `The line is currently: ${line}`
 };
 
-function currentLine (katzDeliLine) {
+function currentLine (fixArray) {
   if (katzDeliLine.length > 0) {
      return fixArray;
   } else {
