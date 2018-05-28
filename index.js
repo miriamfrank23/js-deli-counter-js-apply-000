@@ -15,6 +15,7 @@ if (deliLine.length > 0) {
  }
 }
 
+let deliLine = ["Ada", "Grace"];
 
 function fixArray (deliLine) {
   let newArray = [];
