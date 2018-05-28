@@ -21,8 +21,7 @@ function fixArray (line) {
   let newArray = [];
   let num = 1;
   for (let i = 0; i < line.length; i++) {
-    newArray.push(num++);
-    newArray.push(`. ${katzDeliLine[i]}`);
+    newArray.push(`${num++}. ${katzDeliLine[i]}`);
   }
   let newLine = newArray.join();
   return `The line is currently: ${newLine}`
