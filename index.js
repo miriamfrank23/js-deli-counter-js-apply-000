@@ -16,15 +16,15 @@ if (deliLine.length > 0) {
 }
 
 
-function fixArray (katzDeliLine) {
+function fixArray (line) {
   let newArray = [];
   let num = 1;
-  for (let i = 0; i < katzDeliLine.length; i++) {
+  for (let i = 0; i < line.length; i++) {
     newArray.push(num++);
     newArray.push(`. ${katzDeliLine[i]}`);
   }
-  let line = newArray.join();
-  return `The line is currently: ${line}`
+  let newLine = newArray.join();
+  return `The line is currently: ${newLine}`
 };
 
 function currentLine (fixArray) {
