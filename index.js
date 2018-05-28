@@ -23,7 +23,7 @@ function currentLine (deliLine) {
   for (let i = 0; i < deliLine.length; i++) {
     newArray.push(`${num++}. ${deliLine[i]}`);
   }
-  let newLine = newArray.join();
+  let newLine = newArray.join(', ');
   if (deliLine.length > 0) {
   return `The line is currently: ${newLine}`;
   } else {
