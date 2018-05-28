@@ -27,7 +27,7 @@ function fixArray (line) {
   return `The line is currently: ${newLine}`;
 };
 
-function currentLine (fixArray) {
+function currentLine (line) {
   if (line.length > 0) {
      return fixArray();
   } else {
