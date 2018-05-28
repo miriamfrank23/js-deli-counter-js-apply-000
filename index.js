@@ -15,7 +15,7 @@ if (deliLine.length > 0) {
  }
 }
 
-let deliLine = ["Ada", "Grace"];
+
 
 function currentLine (deliLine) {
   let newArray = [];
@@ -30,5 +30,3 @@ function currentLine (deliLine) {
   return 'The line is currently empty.';
  }
 }
-
-
