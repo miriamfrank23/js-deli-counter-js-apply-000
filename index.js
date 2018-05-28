@@ -28,7 +28,7 @@ function fixArray (deliLine) {
 };
 
 function currentLine (deliLine) {
-  let len = deliLine.length();
+  let len = deliLine.length;
   if (len > 0) {
      return fixArray();
   } else {
