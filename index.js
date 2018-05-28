@@ -26,7 +26,7 @@ function fixArray (deliLine) {
   return `The line is currently: ${newLine}`;
 };
 
-function currentLine (deliLine) {
+function currentLine (fixArray, deliLine) {
   let len = deliLine.length;
   if (len > 0) {
      return fixArray();
