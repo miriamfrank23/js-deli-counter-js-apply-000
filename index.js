@@ -15,20 +15,19 @@ if (deliLine.length > 0) {
  }
 }
 
-var line = [];
 
-function fixArray (line) {
+function fixArray (deliLine) {
   let newArray = [];
   let num = 1;
-  for (let i = 0; i < line.length; i++) {
-    newArray.push(`${num++}. ${line[i]}`);
+  for (let i = 0; i < deliLine.length; i++) {
+    newArray.push(`${num++}. ${deliLine[i]}`);
   }
   let newLine = newArray.join();
   return `The line is currently: ${newLine}`;
 };
 
-function currentLine (line) {
-  let len = line.length;
+function currentLine (deliLine) {
+  let len = deliLine.length;
   if (len > 0) {
      return fixArray();
   } else {
